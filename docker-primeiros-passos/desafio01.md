@@ -12,4 +12,8 @@ Lembrando que a execução em container deve ser transparente pra quem está des
 
 Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dados PostgreSQL com esses requisitos.
 
-Resposta: docker container run -d -p 3000:3000 -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd postgres
+<br>
+
+Resposta: 
+
+docker container run -d -p 3000:3000 -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd postgres
